@@ -1,12 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { DatePicker } from 'antd';
-import './index.css';
-// import App from './App';
-// import registerServiceWorker from './registerServiceWorker';
-//
-ReactDOM.render(<DatePicker />, document.getElementById('root'));
-// registerServiceWorker();
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { Router } from 'react-router-dom'
+import createBrowserHistory from 'history/createBrowserHistory'
+import registerServiceWorker from './registerServiceWorker'
+import routes from './routes'
+const history = createBrowserHistory()
 
-
-// ReactDOM.render(<DatePicker />, mountNode);
+ReactDOM.render(
+  <Router history={history} children={routes} />,
+  document.getElementById('root'),
+)
+registerServiceWorker()

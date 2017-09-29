@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
-class Login extends Component {
+class NotFound extends Component {
   render() {
     return (
       <div className="App">
         <p className="App-intro">
-          login
+          404
         </p>
       </div>
     );
   }
 }
 
-export default Login;
+export default NotFound;
