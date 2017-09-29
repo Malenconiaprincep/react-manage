@@ -13,5 +13,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "postinstall": "rm -rf .git/hooks/pre-commit && ln .pre-commit .git/hooks/pre-commit"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.2"
   }
 }
