@@ -1,3 +1,7 @@
+/*
+  postinstall 是在安装依赖后 执行的命令
+*/
+
 {
   "name": "react-manage",
   "version": "0.1.0",
