@@ -1,4 +1,7 @@
 # eslint 是通过 eslint-config ，去找到react-scripts模块下 eslint-config-react-app
 {
-  "extends": "react-app"
+  "extends": [
+    "react-app",
+    "prettier"
+  ]
 }
