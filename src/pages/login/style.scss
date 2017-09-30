@@ -1,0 +1,8 @@
+@import 'style/_color.scss';
+
+.App {
+  background: $blue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
