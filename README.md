@@ -1,10 +1,19 @@
 react manage bootstrap
 
 
-支持 eslint
-支持 pretitter
-支持 antd
+
+- [x] eslint
+- [x] pretitter
+- [x] antd
+- [x] sass
+- [ ] ​
 
 
-react-app-rewired    Override create-react-app webpack configs without ejecting
+
+#### react-app-rewired   
+
+Override create-react-app webpack configs without ejecting
 https://github.com/timarney/react-app-rewired
+
+
+
