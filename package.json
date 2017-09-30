@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "antd": "^2.13.3",
+    "flow-bin": "^0.56.0",
     "node-sass-chokidar": "^0.0.3",
     "npm-run-all": "^4.1.1",
     "react": "^16.0.0",
@@ -19,6 +20,7 @@
     "build": "npm run build-css && react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject",
+    "flow": "flow",
     "postinstall": "rm -rf .git/hooks/pre-commit && ln .pre-commit .git/hooks/pre-commit"
   },
   "devDependencies": {

@@ -1,8 +1,14 @@
+// @flow
+
 import './style.css'
-import React, { Component } from 'react'
+import * as React from 'react'
 import logo from './logo.svg'
 
-class Login extends Component {
+type Props = {
+    name: string
+};
+
+class Login extends React.Component {
   render() {
     return (
       <div className="App">
